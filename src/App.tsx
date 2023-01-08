@@ -43,15 +43,15 @@ function App() {
 
             <input 
             onChange={(e) => setSearch(e.target.value)} 
-            autoFocus placeholder='Search' type="text" />
-            <h1 className='searchH1'>Search for music name, author or genre </h1> 
+            autoFocus placeholder='procurar' type="text" />
+            <h1 className='searchH1'>Procurar musicas </h1> 
             </> :
             <>
               {windowWidth <= 820 ? 
               <button className='showSidebar' onClick={() => setIsSidebar(!isSidebar)}><Menu />
               </button>
               : ''}
-              <h1 className='title'>{isFull && windowWidth <= 820 ? '' : 'All songs'}</h1>
+              <h1 className='title'>{isFull && windowWidth <= 820 ? '' : 'Listas de Musicas'}</h1>
             </>
           }
           <div className='divSongs'>

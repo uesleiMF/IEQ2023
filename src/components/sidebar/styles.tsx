@@ -13,7 +13,7 @@ export const Container = styled.div<{ isSidebar: boolean }>`
         width: 90%;
         margin: auto;
         margin-bottom: 0px;
-        border-bottom: 1px solid #16171a;
+        border-bottom: 1px solid #D3D3D3;
         div {
             display: flex;
             align-items: center;

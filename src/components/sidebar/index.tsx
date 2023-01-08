@@ -17,17 +17,17 @@ export const Sidebar = ({ setGenre, setIsSearch, setIsFull, isSearch, isSidebar,
                 <div 
                 onClick={() => (setGenre(''), setIsSearch(false), setIsFull(false), setIsSidebar(false))} 
                 className='iniSearDivs'>
-                    <p><Home/></p> Initial Page
+                    <p><Home/></p> Inicio
                 </div>
 
                 <div 
                 onClick={() => (setIsSearch(!isSearch), setIsSidebar(false))}className='iniSearDivs'>
-                    <p><Search /></p> Search
+                    <p><Search /></p> Procurar
                 </div>
             </div>
 
             <div className='genres'>
-                <h2>Genres</h2>
+                <h2>Generos</h2>
                 <div 
                 onClick={() => (setGenre('Beats') ,setIsSidebar(false), 
                 setIsSearch(false))}>
@@ -35,15 +35,15 @@ export const Sidebar = ({ setGenre, setIsSearch, setIsFull, isSearch, isSidebar,
                 </div>
                 <div 
                 onClick={() => (setGenre('Ambient') ,setIsSidebar(false), setIsSearch(false))}>
-                    Ambient
+                    Ambiente
                 </div>
                 <div 
                 onClick={() => (setGenre('Classic') ,setIsSidebar(false), setIsSearch(false))}>
-                    Classic
+                    Classicas
                 </div>
                 <div 
                 onClick={() => (setGenre('Eletronic') ,setIsSidebar(false), setIsSearch(false))}>
-                    Eletronic
+                    Eletronica
                 </div>
             </div>
         </C.Container>
