@@ -46,15 +46,15 @@ export const Container = styled.div<{ isSidebar: boolean }>`
             font-size: 18px;
         }
     }
-    @media only screen and (max-width: 820px) {
+    @media only screen and (max-width: 720px) {
         position: absolute;
         z-index: 2;
         display: ${props => props.isSidebar ? 'block' : 'none'};
-        background-color: white;
-        width: 250px;
+        background-color: #DCDCDC;
+        width: 180px;
 
         .inicialSearch {
-            margin-top: 50px;
+            margin-top: 45px;
         }
       }
     

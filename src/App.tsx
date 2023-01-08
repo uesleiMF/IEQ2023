@@ -44,8 +44,7 @@ function App() {
             <input 
             onChange={(e) => setSearch(e.target.value)} 
             autoFocus placeholder='procurar' type="text" />
-            <h1 className='searchH1'>Procurar musicas </h1> 
-            </> :
+            <h1 className='searchH1'>Procurar musicas </h1>            </> :
             <>
               {windowWidth <= 820 ? 
               <button className='showSidebar' onClick={() => setIsSidebar(!isSidebar)}><Menu />

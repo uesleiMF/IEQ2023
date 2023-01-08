@@ -4,8 +4,8 @@ export const Container = styled.div`
     display: flex;
     .oi { 
         box-shadow: 0px 0px 7px #c3c1c1;
-        height: 86vh;
-        width: 25%;
+        height: 96vh;
+        width: 130%;
       }
 
     .divSongs {
@@ -66,7 +66,7 @@ export const Container = styled.div`
         }
     }
       
-    @media only screen and (max-width: 820px) {
+    @media only screen and (max-width: 520px) {
       .top {
         height: 86vh;
         

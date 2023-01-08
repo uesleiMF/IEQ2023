@@ -4,16 +4,16 @@ export const Container = styled.div`
  
 
 .divAll {
-    margin-right: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 7px #c3c1c1;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 7px #A020F0;
     padding: 5px 5px 25px;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 180px;
     height: fit-content;
-    border-radius: 10px;
-    color: #16171a;
+    border-radius: 15px;
+    color: #C0C0C0;
     cursor: pointer;
 }
 img {
@@ -23,7 +23,7 @@ img {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 2px;
 }
 h3 {
@@ -32,17 +32,17 @@ h3 {
     color: #4c4e51
 }
 .divGenre {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
     box-shadow: 0px 0px 7px #c3c1c1;
-    padding: 5px 5px 25px;
+    padding: 5px 5px 20px;
     display: flex;
     flex-direction: column;
     width: 200px;
     height: fit-content;
     border-radius: 10px;
-    color: #16171a;
+    color: #C0C0C0;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ h3 {
     justify-content: center;
     width: 95vw;
     height: 50vh;
-    margin-top: 40px;
+    margin-top: 100px;
 
 }
 
@@ -68,7 +68,7 @@ h3 {
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 20px;
         margin-bottom: 2px;
     }
     h3 {
